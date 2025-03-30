@@ -4,6 +4,7 @@
     font-family: Arial, sans-serif;
     padding: 20px;
     background-color: green;
+    color: black;
 }
 .cabecalho{
     background-color: #ADFF2F;
@@ -26,7 +27,14 @@
 .conteudo{
     background-color:beige;
 }
-
+.conteudo p{
+    color: #E4005A;
+    font-size: 42px;
+}
+.conteudo .terceiroParagrafo{
+    color: purple;
+    
+}
 .titleText{
     color: blueviolet;
 }
@@ -34,5 +42,11 @@
     color:#808080;
 }
 
+@media(max-width: 480px){
+    .container{
+        width: 100%;
+        background-color: #ADD8E6;
+    }
+}
 
 
